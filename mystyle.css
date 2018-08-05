@@ -1,0 +1,25 @@
+body{
+    background:black;
+    color:white;
+    text-align:center;
+    
+}
+input{
+    text-align:center;
+    background:black;
+    color:white;
+    border: 0;
+}
+button{
+    background:black;
+    color:white;
+    border:2px solid white;
+}
+.slide-wrap{
+    background:black;
+}
+.tester{
+    background-image:url("test.jpg");
+    background-size: cover;
+    min-height:400px;
+}

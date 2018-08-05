@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>REDSHIFT_JS</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+  </head>
+  <body>
+      <input type="text" id="readout" oninput="showVal(this.value)" onchange="showVal(this.value)">
+      <br>
+    <input type="range" id="start" name="volume"
+           min="1000" max="6500" oninput="showVal(this.value)" onchange="showVal(this.value)"/>
+    <br>
+    <button onclick="reset()">RESET</button>
+    <hr>
+    <div class="tester"></div>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+    <script src="custom.js"></script>
+  </body>
+</html>
